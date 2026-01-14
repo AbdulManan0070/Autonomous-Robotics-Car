@@ -1,5 +1,7 @@
 # Autonomous 4WD Robotic Car
-**Contributors:** Momina Haq, Abdul Manan 
+**Contributors:** Momina Haq
+Abdul Manan 
+
 **Description:** This project involves the design, construction, and programming of an autonomous four-wheel drive robotic car integrating mechanical design, electronics, and software algorithms. The car navigates its environment, detects obstacles using an ultrasonic sensor (HC-SR04), and autonomously avoids collisions. It uses an Arduino Uno R3 as the main controller, an L293D motor driver for four DC motors, and three rechargeable Lithium-ion batteries (LL 18650-1800mAh, 3.7V). The project demonstrates the integration of hardware and software systems for intelligent autonomous movement.
 ## Working Principle
 The car moves forward while continuously measuring distance to obstacles. If an obstacle is detected within 2 cm, the car stops, reverses, and resumes forward movement. The Arduino processes sensor data and controls the motors independently through the L293D motor driver. A four-motor system allows each wheel to operate individually for better traction and maneuverability. Obstacle avoidance is achieved using a programmed algorithm in the Arduino.
